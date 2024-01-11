@@ -198,3 +198,9 @@ p span {
   border-radius: 50%;
   cursor: pointer;
 } 
+
+.not-found {
+  color: #fff;
+  text-align: center;
+  font-weight: normal;
+}

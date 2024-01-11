@@ -40,8 +40,10 @@
         moviesService
           .getMovies(state.inp)
           .then(({ data }) => {
+
             setState(prev => ({...prev, results: data.Search }))
-            })
+          })
+          .catch(err => console.log(err))
       }
     }
 
