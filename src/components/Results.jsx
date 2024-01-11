@@ -1,7 +1,5 @@
 import Result from './Result'
 
-
-// Not working with not finished words ex: batma throws an error.
 const Results = ({ results, openPopup }) => {
 
   if (!results) {
@@ -11,7 +9,6 @@ const Results = ({ results, openPopup }) => {
       </section>
     )
   }
-
 
   return (
     <section className="results" >
